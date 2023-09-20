@@ -1,7 +1,7 @@
 replicaCount: 3
 
 image:
-  repository: us-central1-docker.pkg.dev/terraform-project-mishanyag/artemis/artemis@sha256:8c4738c8e63b0a05ff7d95f18052950fc4ec39fd05fcfd287607fd7f24b76359
+  repository: "us-central1-docker.pkg.dev/terraform-project-mishanyag/artemis/artemis"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "9.0.0"
